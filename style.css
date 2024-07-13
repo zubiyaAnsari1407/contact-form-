@@ -1,102 +1,266 @@
-/* Styles for Page 1 */
-h1{
-    text-align: center;
-    text-decoration: dashed;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:bisque;
-    width: 78%;
-    padding: 20px;
-    margin-top:1px;
-    margin-left:230px ;
-   /* margin: auto;
-   margin-bottom: auto; */
-}
-h3{
-    text-transform:capitalize;
-    font-weight: 700;
-    font-size:xx-large;
-    font-family:'Times New Roman', Times, serif;
-}
 body{
-    background-color: wheat;
-  margin: 100px;
-  margin-right: 200px;
-  margin-left: 200px;
+    background-color: black;
+    color: white;
 }
-.info-phone{
+.heading1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 80px;
+    font-size: 28px;
+}
+
+.div1{
+    background-color:#bc9864;
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+}
+.div2{
+    background-color:#bc9864;
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+}
+.div3{
+    background-color:#bc9864;
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+}
+.flex-container{
     display: flex;
-   margin-right: 300px;
-   padding-top: 100px;
+    justify-content: center;
+    margin-top: 70px;
+    gap:260px
 }
-.email{
+.flex-container2{
     display: flex;
-    margin-right: 300px;
-    padding-top: 100px;
+    justify-content: center;
+    gap:310px;
+    font-size: 25px;
+    margin-top: -49px;
+    color: black;
 }
-.contact-form {
-display: flex;
-/* margin-right: 300px;  */
-padding-top: 100px;
-justify-content: space-between;
+.Address h3{
+    color: #bc9864;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+}
+.Phoneno h3{
+    color: #bc9864;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+}
+.emailid h3{
+    color: #bc9864;
+    font-family: "Playfair Display", serif;
+   font-weight: 300;   
+}
+.flex-container3{
+    display: flex;
+    justify-content: center;
+    gap:299px;
+    margin-top: 20px;
+}
+.Address{
+    position: absolute;
+    margin-left: -600px;
+    font-family:"Playfair Display", serif ;
+}
+.Phoneno{
+    position: absolute;
+    margin-left:70px;
+}
+.emailid{
+    position: absolute;
+    margin-left: 850px;
+   font-family: "Playfair Display", serif;
+}
+.get-in-touch{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 190px;
+    text-align: center;
+}
+.form{
+width: 100%;
+max-width: 600px;
+margin: auto;
+padding: 20px;
+border-radius: 8px;
+}
+.inputs,.send-button,.textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    height: 30px;
+}
+.inputs,.textarea{
+    background-color: #555;
+    color: white;
+}
+.send-button{
+    background-color: #bc9864;
+    color:white;
+    height: 50px;
+}
+.send-button:hover{
+    background-color:#E0A75E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body{
+    background-color: black;
+}
+.logo-style-apply{
+    background-color:rgb(222, 156, 77); 
+    height: 50px; 
+    width: 50px;
+   align-content: center;
+  margin-left: 70px;
+    border-radius: 50%;
+}
+.div-container{
+    height: 150px;
+    width: 180px;
+    margin: auto;
+   margin-top: 20px ;
+
+   text-align: center;
+color: black;
+
 
 }
-.flex{
-    display: flex;
-    justify-content: flex-start;
-    height: 30%;
+.main-container{
+    border :2px solid black;
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: aliceblue;
+text-align: center;
+}
+h6{
+    color:rgb(222, 156, 77);
+
+}
+p{
+    color:white;
 }
 button{
-    
-    border-style: double;
-    background-color: brown;
-    color: white;
-    border-color: chocolate;
-    border-top:55px;
-    padding: 15px;
+    width: 100%;
+    background-color: rgb(222, 156, 77);
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
 }
-#form
-{
-    background-color:#dac1b2;
-    width: 80%;
-    margin-left: 230px;
-    margin-top: 10px;
+input{
+    background-color: darkgray;
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
     
 }
-.flex{
-    background-color: #FFF6DC;
-    height: min-content;
-    width: 80%;
-    margin-left: 230px;
-}
-#address{
-    float: right;
-font-weight: 600;
-font-style: oblique;
-font-size: x-large;
-margin-left: 100px;
+.textarea-apply{
+    background-color:darkgray;
+    width: 100%;
+    border-radius: 10px;
 
 }
-#phone{
-    font-weight: 600;
-    font-style: oblique;
-    font-size: x-large;
-    margin-left: 5px;
-    margin-left: 200px;
-}
-#Email
-{
-    font-weight: 600;
-    font-style: oblique;
-    font-size: x-large;
-    margin-left: 10px;
-}
-form input {
-    width: 20%;  /* Full width of the container */
-    padding: 15px; /* Increase padding for a larger input box */
-    margin-bottom: 10px;
-    border: 1px solid #444;
-    border-radius: 5px;
-    
+
+.grid-container {
+    display: grid;
+    background-color: black;
+    gap: 5px;
+    padding: 5px;
+    margin: 5px;
+    grid-template:auto auto auto auto;
 
 }
+
+.grid-item {
+    background-color: white;
+    padding: 0px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ .item1{
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+ }
+ .item2{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+ }
+ .item3{
+    grid-column-start:3 ;
+    grid-column-end:4 ;
+    grid-row-start:2;
+    grid-row-end: 3;
+ }
+ .item4{
+    grid-column-start: 4;
+    grid-column-end:5 ;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+ } */
